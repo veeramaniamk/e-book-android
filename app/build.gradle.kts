@@ -10,8 +10,8 @@ android {
         applicationId = "com.saveetha.e_book"
         minSdk = 24
         targetSdk = 34
-        versionCode = 1
-        versionName = "1.0"
+        versionCode = 2
+        versionName = "2.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -65,6 +65,7 @@ dependencies {
     //for razorpay
     implementation("com.razorpay:checkout:1.6.36")
     implementation("com.joanzapata.pdfview:android-pdfview:1.0.4@aar")
+    implementation("com.google.android.play:app-update:2.1.0")
 
     //load pdf url
 //    implementation("com.github.barteksc:android-pdf-viewer:2.8.2")
