@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/popup_background"> <!-- Add a background drawable if needed -->
+
+    <Button
+        android:id="@+id/add_category"
+        android:layout_width="match_parent"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:text="Add category" />
+
+    <Button
+        android:id="@+id/add_book"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add book" />
+
+    <Button
+        android:id="@+id/view_category"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Category" />
+
+
+
+</LinearLayout>
